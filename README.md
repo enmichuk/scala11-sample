@@ -1,1 +1,1 @@
-Project for samples, experiments and tests of scala 11 and different libraries
+Project for samples, experiments and tests with scala 11 and different libraries

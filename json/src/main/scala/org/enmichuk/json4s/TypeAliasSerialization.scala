@@ -1,6 +1,6 @@
-package json4s
+package org.enmichuk.json4s
 
-import json4s.SomeObject.SubscriberId
+import SomeObject.SubscriberId
 import org.json4s.Extraction.decompose
 import org.json4s.JsonDSL._
 import org.json4s.{CustomKeySerializer, DefaultFormats}
