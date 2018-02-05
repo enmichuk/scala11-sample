@@ -5,6 +5,7 @@ object Dependencies {
   val jacksonVersion = "2.8.8"
   val circeVersion = "0.8.0"
   val httpclientVersion = "4.5.2"
+  val http4sVersion = "0.17.6"
 
   val jsonDependencies = Seq(
     "org.json4s" %% "json4s-native" % json4sVersion,
@@ -21,7 +22,12 @@ object Dependencies {
 
   val httpDependencies = Seq(
     "org.apache.httpcomponents" % "httpclient" % httpclientVersion,
-    "org.apache.httpcomponents" % "httpclient" % httpclientVersion classifier "tests"
+    "org.apache.httpcomponents" % "httpclient" % httpclientVersion classifier "tests",
+    "org.http4s" %% "http4s-dsl" % http4sVersion,
+    "org.http4s" %% "http4s-blaze-server" % http4sVersion,
+    "org.http4s" %% "http4s-blaze-client" % http4sVersion,
+    "org.http4s" %% "http4s-circe" % http4sVersion,
+    "org.http4s" %% "http4s-json4s-native" % http4sVersion
   )
 
   val utilDependencies = Seq(
