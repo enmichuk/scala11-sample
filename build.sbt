@@ -6,14 +6,18 @@ organization := Organization
 version := Version
 scalaVersion := ProjectScalaVersion
 
+lazy val core = project
+  .settings(commonSettings)
+  .settings(libraryDependencies ++= dependencies)
+
 lazy val json = project
   .settings(commonSettings)
   .settings(libraryDependencies ++= dependencies)
 
-lazy val core = project
+lazy val http = project
   .settings(commonSettings)
   .settings(libraryDependencies ++= dependencies)
 
 lazy val root = project.in( file(".") )
   .settings(commonSettings)
-  .aggregate(json, core)
+  .aggregate(json, core, http)

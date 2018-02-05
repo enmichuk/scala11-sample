@@ -1,5 +1,3 @@
-import ProjectProperties._
-
 name := NamePrefix + "json"
 
 autoCompilerPlugins := true
