@@ -1,4 +1,4 @@
-package core
+package org.enmichuk.core
 
 object StructuralTypes extends App {
 

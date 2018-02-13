@@ -1,4 +1,4 @@
-package core.serialization
+package org.enmichuk.core.serialization
 
 import java.io.{FileInputStream, FileOutputStream, ObjectInputStream, ObjectOutputStream}
 

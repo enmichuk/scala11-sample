@@ -1,1 +1,1 @@
-name := NamePrefix + "core"
+name := NamePrefix + "org/enmichuk/core"

@@ -1,4 +1,4 @@
-package core
+package org.enmichuk.core.datastructure
 
 object ListSliser extends App {
   var list = List(1)
